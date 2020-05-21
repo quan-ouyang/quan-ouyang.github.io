@@ -9,7 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.6.1"
   gem "tzinfo"
   gem "tzinfo-data"
-
+ 
 end
 
 group :test do

@@ -132,10 +132,10 @@ By deploying the site in this way, you're allowed to push the source code direct
 
 **1**. Rename the repository to:
 
-| Site Type | Repo's Name |
-| :-------- | :---------- |--------------------------------------- |
-|  User or Organization | `<username>.github.io`                                                                          |
-|  Project                            | Any one except `<username>.github.io`, let's say `project`  |
+|Site Type | Repo's Name|
+|:---|:---|
+|User or Organization | `<username>.github.io`|
+|Project| Any one except `<username>.github.io`, let's say `project`|
 
 **2**. Commit the changes of the repo first, then run the initialization script:
 
@@ -162,10 +162,10 @@ Updated the Categories, Tags, Lastmod for post(s).
 
 **4**. Check it out:
 
-|  Site Type                       | Site URL                                                               |
-|  :---------------------- ------------- |  :-------------------------------------- ----------------------------------- |
-|  User or Organization | `https://<username>.github.io/`                  |
-|  Project                            | `https://<username>.github.io/project/`  |
+|Site Type | Site URL |
+|:---|:---|
+|User or Organization | `https://<username>.github.io/`|
+|Project| `https://<username>.github.io/project/`|
 
 
 ### Option 2: Build Locally
@@ -174,10 +174,10 @@ For security reasons, GitHub Pages runs on `safe` mode, which means the third-pa
 
 **1**. Browse to GitHub website, create a brand new repo named: 
 
-| Site Type            | Repo's Name                                                |
-| :------------------- | :--------------------------------------------------------- |
-| User or Organization | `<username>.github.io`                                     |
-| Project              | Any one except `<username>.github.io`, let's say `project` |
+|Site Type | Repo's Name|
+|:---|:---|
+|User or Organization | `<username>.github.io`|
+|Project| Any one except `<username>.github.io`, let's say `project`|
 
 and clone it.
 
@@ -193,10 +193,10 @@ The generated static files will be placed in the root of `/path/to/local/project
 
 **4**. Visit at:
 
-| Site Type            | Site URL                                |
-| :------------------- | :-------------------------------------- |
-| User or Organization | `https://<username>.github.io/`         |
-| Project              | `https://<username>.github.io/project/` |
+|Site Type | Site URL |
+|:---|:---|
+|User or Organization | `https://<username>.github.io/`|
+|Project| `https://<username>.github.io/project/`|
 
 ### Finishing work
 
