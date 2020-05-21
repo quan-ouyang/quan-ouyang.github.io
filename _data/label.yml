@@ -7,11 +7,11 @@
 
 panel:
   lastmod: "最新发布"
-  trending_tags: "Trending Tags"
+  trending_tags: "文章标签"
   toc: "Contents"
 
 post:
-  relate_posts: "文章标签"
+  relate_posts: "Further Reading"
   button:
     next: Newer
     previous: Older
