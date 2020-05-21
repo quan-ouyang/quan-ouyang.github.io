@@ -19,8 +19,7 @@ check_status() {
     "_post"
     "_data")
 
-  for i in "${!_watching_dirs[@]}"
-  do
+  for i in "${!_watching_dirs[@]}"; do
     local _dir=${_watching_dirs[${i}]}
     if [[ ! -z $(git status $_dir -s) ]]; then
       echo "Warning: Commit the changes of the directory '$_dir' first."
@@ -30,14 +29,12 @@ check_status() {
   done
 }
 
-
 update_files() {
   bash _scripts/sh/create_pages.sh
   bash _scripts/sh/dump_lastmod.sh
 
   find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 }
-
 
 commit() {
   msg="Updated"
@@ -80,12 +77,11 @@ commit() {
   echo $msg
 }
 
-
 main() {
 
   cd $WORK_DIR
 
-  check_status
+  # check_status
 
   update_files
 
